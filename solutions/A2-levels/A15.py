@@ -1,0 +1,5 @@
+w,l,h = map(int,input().split())
+p = int(input())
+ans = 2*h*(w+l)
+print(ans)
+print(ans*p)
