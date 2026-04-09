@@ -1,10 +1,7 @@
-a = int(input())
-b = int(input())
-d = int(input())
-r = int(input())
+a,b,d,r = map(int,input().split())
 
-xf = a + ((r-a) % d)
+n=0
+for i in range(a,b+1):
+    if i%d == r : n+=1
 
-if xf>b: print(0)
-else:
-    print((b-xf) // d+1)
+print(n)
