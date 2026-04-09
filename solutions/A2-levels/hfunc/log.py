@@ -9,3 +9,5 @@ def alog2d(arr):
 
         print()
 
+def arlog(arr):
+    print(' '.join(arr))
